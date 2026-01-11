@@ -47,7 +47,7 @@ const MAX_LOGS = 200;
 const CONFIG = {
     PRIVATE_KEY: process.env.PRIVATE_KEY,
     EXECUTOR: process.env.EXECUTOR_ADDRESS,
-    PROFIT_RECIPIENT: "0x61BB62bDa623126aA28Db58780ac81Af04275Df2",
+    PROFIT_RECIPIENT: "0x3a0Eb69521cB2C9399C61f81FB62BD4196840992",
     PORT: process.env.PORT || 8080,
     GAS_LIMIT: 2000000n, // Calibrated for v134.0 complex routing
     SAFETY_VOID_WEI: 100000n, // 100k wei buffer to absorb mempool gas drift
